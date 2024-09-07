@@ -15,13 +15,23 @@ body {
     margin: 56px auto 0px;
 }
 
-#profile {
+#profile1 {
     text-align: center;
-    padding: 24px;
+    padding-top: 24px;
 }
 
-#profile img {
+#profile2 {
+    text-align: center;
+    padding-top: 1px;
+}
+
+#img-profile {
     width: 112px;
+    margin: auto;
+}
+
+#img-logo-codigoF {
+    width: 200px;
     margin: auto;
 }
 
@@ -30,4 +40,18 @@ body {
     line-height: 24px;
     text-align: center;
     margin-top: 8px;
+}
+
+span {
+    font-size: 20px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul li {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
 }

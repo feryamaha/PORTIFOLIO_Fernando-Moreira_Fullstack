@@ -175,3 +175,25 @@ footer {
         --bg-url: url(./assets/bg-desktop-light.jpg);
     }
 }
+
+@media screen and (min-device-width: 200px) and (max-device-width: 700px) {
+    /* STYLES HERE */
+
+    ul {
+        gap: 20px;
+        padding: 50px 0;
+    }
+
+    #profile2 {
+        padding-top: 30px;
+    }
+
+    #social-links {
+        padding: 10px 0;
+    }
+
+    footer {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+}

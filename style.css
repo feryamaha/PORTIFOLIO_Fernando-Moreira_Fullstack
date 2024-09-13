@@ -90,11 +90,15 @@ body * {
     z-index: 1;
     transform: translateY(-50%);
     cursor: pointer;
+    animation: slide-back 0.5s;
+}
+
+#switch button:hover {
+    outline: 8px solid var(--highlight-color);
 }
 
 .light #switch button {
-    right: 0;
-    left: initial;
+    animation: slide-in 0.5s forwards;
     cursor: pointer;
     border: 1px solid var(--backlight-color);
 }
@@ -195,5 +199,25 @@ footer {
     footer {
         padding-top: 50px;
         padding-bottom: 0;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes slide-back {
+    from {
+        left: 50%;
+    }
+
+    to {
+        left: 0;
     }
 }
